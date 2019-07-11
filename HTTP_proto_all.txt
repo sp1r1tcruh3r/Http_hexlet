@@ -1,0 +1,33 @@
+
+
+
+****************lesson 3********
+POST /upload HTTP/1.1
+Host: hexlet.local
+Content-Type: text/plain
+Content-Length: 15
+
+my request body
+******lesson 4**********
+POST /session/new HTTP/1.1
+Host: hexlet.local
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+
+username=admin&password=secret
+
+****lesson 5********
+//chunked data
+
+GET /stream HTTP/1.1
+host: hexlet.local
+
+***lsesson6***
+GET /?key=value&another_key=another_value HTTP/1.1
+HOST: hexlet.local
+
+//Идемпоте́нтность (лат. idem — тот же самый + potens — способный) —
+свойство объекта или операции при повторном применении операции к объекту давать
+тот же результат, что и при первом. Термин предложил американский математик
+Бенджамин Пирс (англ. Benjamin Peirce) в статьях 1870-х годов.
+Хекслет жжот эс южуэл)))))
