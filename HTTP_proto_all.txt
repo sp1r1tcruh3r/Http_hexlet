@@ -31,3 +31,15 @@ HOST: hexlet.local
 тот же результат, что и при первом. Термин предложил американский математик
 Бенджамин Пирс (англ. Benjamin Peirce) в статьях 1870-х годов.
 Хекслет жжот эс южуэл)))))
+
+GET /admin HTTP/1.1
+host: hexlet.local:8080
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+
+//QWxhZGRpbjpvcGVuIHNlc2FtZQ== - base64 encoded user:password
+
+GET /account HTTP/1.1
+Host: hexlet.local
+Cookie: name=user; secret=secret_hash
+
+cookies suck
